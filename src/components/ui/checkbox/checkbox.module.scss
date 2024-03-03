@@ -1,0 +1,87 @@
+/* reset */
+button {
+  all: unset;
+}
+
+.CheckboxRoot {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+
+  background-color: inherit;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: var(--color-dark-500);
+  }
+
+  &:focus {
+    background-color: var(--color-dark-100);
+  }
+
+  &:disabled {
+    cursor: unset;
+    background-color: inherit;
+  }
+
+  .CheckboxIndicatorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 18px;
+    height: 18px;
+
+    border: 2px solid var(--color-light-900);
+    border-radius: 3px;
+  }
+
+  .CheckboxIndicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-dark-900);
+  }
+
+  &[data-state='checked'] {
+    .CheckboxIndicatorContainer {
+      background-color: var(--color-light-100);
+      border: 2px solid var(--color-light-100);
+    }
+  }
+
+  &[data-disabled] {
+    .CheckboxIndicatorContainer {
+      background-color: var(--color-dark-100);
+      border-color: var(--color-dark-100);
+    }
+
+    .CheckboxIndicator {
+      color: var(--color-light-700);
+    }
+  }
+
+  &[data-state='unchecked'] {
+    .CheckboxIndicatorContainer {
+      background-color: inherit;
+    }
+  }
+}
+
+.Label {
+  padding-left: 2px;
+  font-size: 15px;
+  line-height: 1;
+  color: white;
+}
+
+input:disabled + .Label {
+  span {
+    color: var(--color-dark-100);
+  }
+}

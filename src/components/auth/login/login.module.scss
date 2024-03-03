@@ -1,0 +1,66 @@
+.card {
+  justify-content: unset;
+  padding: 33px 36px;
+}
+
+.inputOne {
+  margin-top: 33px;
+}
+
+.inputTwo {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.checkboxWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  position: absolute;
+  top: -10px;
+  left: -9px;
+  margin-top: 12px;
+}
+
+.checkboxLabel {
+  margin-left: 30px;
+}
+
+.forgot {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+
+  a {
+    cursor: pointer;
+  }
+}
+
+.button {
+  width: 348px;
+  margin-top: 73px;
+}
+
+.noAcc {
+  margin-top: 27px;
+  color: var(--color-light-900);
+  text-align: center;
+}
+
+.signUp {
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 7px;
+
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-l);
+  color: var(--color-accent-500);
+  text-decoration-line: underline;
+}

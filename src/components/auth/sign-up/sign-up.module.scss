@@ -1,0 +1,44 @@
+.signUpContainer {
+  gap: 36px;
+  align-items: center;
+}
+
+.container {
+  .header {
+    margin-bottom: 27px;
+    text-align: center;
+  }
+
+  .note {
+    margin-bottom: 11px;
+    color: var(--color-light-900);
+  }
+
+  .link {
+    margin-bottom: 4px;
+    color: var(--color-accent-500);
+  }
+
+  .note,
+  .link {
+    text-align: center;
+  }
+
+  form {
+    .formInput {
+      margin-bottom: 24px;
+
+      &:last-of-type {
+        margin-bottom: 60px;
+      }
+    }
+
+    .button {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.card {
+  padding: 33px 38px 25px;
+}

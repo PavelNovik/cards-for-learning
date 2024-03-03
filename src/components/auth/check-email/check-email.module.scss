@@ -1,0 +1,35 @@
+.checkEmailContainer {
+  gap: 36px;
+  align-items: center;
+}
+
+.container {
+  .header {
+    margin-bottom: 27px;
+    text-align: center;
+  }
+
+  .iconContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19px;
+  }
+
+  .instruction {
+    display: flex;
+
+    margin-bottom: 65px;
+
+    color: var(--color-light-900);
+    word-wrap: break-word;
+
+    opacity: 0.5;
+  }
+}
+
+.card {
+  min-height: 456px;
+  padding: 37px 36px 44px;
+  text-align: center;
+}

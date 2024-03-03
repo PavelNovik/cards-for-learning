@@ -1,0 +1,34 @@
+/* reset */
+
+.IconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+
+  background-color: inherit;
+
+  //border-radius: 100%;
+}
+
+.IconButton:hover {
+  cursor: pointer;
+}
+
+.IconButton:focus {
+}
+
+.LeftSlot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RightSlot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}

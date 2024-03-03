@@ -1,0 +1,43 @@
+.DropdownMenuAvatar {
+  width: 36px;
+}
+
+.DropdownMenuUserData {
+  color: var(--color-dark-100);
+}
+
+.IconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 35px;
+  height: 35px;
+
+  font-family: inherit;
+  color: var(--violet-11);
+
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: 0 2px 10px var(--black-a7);
+}
+
+.IconButton:hover {
+  cursor: pointer;
+}
+
+.IconButton:focus {
+}
+
+.LeftSlot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RightSlot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
